@@ -1,0 +1,4 @@
+bokeh==1.4.0
+pandas==0.19.2
+geopandas==0.6.0
+
