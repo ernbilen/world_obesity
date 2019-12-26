@@ -116,7 +116,7 @@ color_bar = ColorBar(color_mapper=color_mapper, label_standoff=8,width = 500, he
 
 
 #Create figure object.
-p = figure(title = 'Share of adults who are obese, 2016', plot_height = 600 , plot_width = 950, toolbar_location="above", tools=['wheel_zoom',hover,'pan,save'])
+p = figure(title = 'Share of adults who are obese, 2016', plot_height = 600 , plot_width = 950, toolbar_location="above", tools=['wheel_zoom',hover,'pan,reset,save'])
 p.xgrid.grid_line_color = None
 p.ygrid.grid_line_color = None
 
